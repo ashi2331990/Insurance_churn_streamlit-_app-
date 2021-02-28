@@ -1,0 +1,35 @@
+Logistic regression 
+        accuracy	precision	recall	    ROC	       cross_val
+test	0.902453	0.564103	0.201465	0.591869	0.901984
+train	0.898640	0.528777	0.196349	0.588066	0.898686
+KNN
+        accuracy	precision	recall	    ROC	       cross_val
+test	0.899553	0.642229	0.332322	0.653803	0.898391
+train	0.910732	0.728141	0.374103	0.677834	0.898979
+Naive bayes 
+        accuracy	precision	recall	    ROC	       cross_val
+test	0.842270	0.363135	0.449924	0.672288	0.850760
+train	0.838146	0.344900	0.431484	0.661653	0.838102
+SVM
+        accuracy	precision	recall	    ROC	        cross_val
+test	0.902413	0.629885	0.415781	0.691582	0.896872
+train	0.945418	0.867118	0.628162	0.807728	0.900916
+
+Decision tree
+        accuracy	precision	recall	    ROC	       cross_val
+test	0.900715	0.648069	0.343703	0.659392	0.89571
+train	0.904173	0.663889	0.360891	0.668387	0.89571
+Random Forrest   
+        accuracy	precision	recall	    ROC	        cross_val
+test	0.904306	0.722892	0.301129	0.642879	0.901209
+train	0.927302	0.893561	0.429022	0.711130	0.902639
+ADABOOST
+        accuracy	precision	recall	    ROC	       cross_val
+train	0.903863	0.663657	0.368883	0.671994	0.901207
+test	0.901829	0.641226	0.363091	0.668104	0.899727
+XGBOOST 
+        accuracy	precision	recall	ROC	cross_val
+train	0.908287	0.666034	0.440402	0.705497	0.907696
+test	0.960038	0.916201	0.724290	0.857762	0.905847
+-------------------------------------------------------------------------------------------------------------------------------
+ADABOOST PERFORMS THE BEST AND GIVES THE MOST STABLE MODEL 
